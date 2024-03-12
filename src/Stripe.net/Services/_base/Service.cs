@@ -38,7 +38,7 @@ namespace Stripe
         }
 
         [Obsolete("Please use the `Request` or `RequestAsync` method providing the full path.")]
-        public abstract string BasePath { get; }
+        public virtual string BasePath { get; } = null;
 
         public virtual string BaseUrl => this.Client.ApiBase;
 

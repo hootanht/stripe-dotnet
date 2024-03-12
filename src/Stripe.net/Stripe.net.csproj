@@ -22,6 +22,7 @@
     <PackageValidationBaselineVersion Condition="'$(RunBaselineCheck)' == 'true'">$(Version)</PackageValidationBaselineVersion>
     <NuGetAudit>false</NuGetAudit>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <NoWarn>NU1903</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
